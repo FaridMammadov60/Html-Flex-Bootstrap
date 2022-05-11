@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head-navbar {
+    background-color: rgb(34, 34, 34);
+}
+
+.main-flexs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main-flex1 {    
+    width: calc(100%/4*3);
+}
+.main-flex2 {    
+    width: calc(100%/4); 
+    padding-left: 2%;   
+}
+.left-ul-sidebar{
+    background-color: rgb(245,245,245);
+    width: calc(100%/4*3);
+    height: 350px;
+    font-size: 10px;    
+}
+.down-main{
+    padding-top: 4%;
+    font-size: 12px;
+}
+.hello-word{
+    width: 100%;
+    background-color: rgb(238,238,238);
+    height: 180px;
+       
+}
+.hello-word-div{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.hello-word-div2{
+    padding-left: 50px;
+    padding-right: 300px;
+}
